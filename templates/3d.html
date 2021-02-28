@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <style type="text/css">
+
+        .header{
+            text-align: center;
+            background-color: rgb(220, 220, 220);
+            height: 70px;
+            line-height: 70px;
+        }
+        .chart{
+            margin-top: 30px;
+            text-align: center;
+        }
+    </style>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>
+           3d chart
+        </h2>
+    </div>
+
+    <center>
+      <div id="3Dchart" class="plotly-graph-div" style="height:1000px; width:1000px;"></div>
+        <script type="text/javascript">
+
+               
+            window.PLOTLYENV=window.PLOTLYENV || {};
+
+
+
+            if (document.getElementById("3Dchart")) {
+                Plotly.newPlot(
+                    '3Dchart',
+                    {{graphJSON | safe}},
+                    {"responsive": true})};
+
+        </script>
+      </div>
+    </center>
+
+</body>
+</html>
