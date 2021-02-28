@@ -1,0 +1,6 @@
+flask==1.1.2
+pandas==1.0.5
+networkx==2.4
+plotly
+numpyencoder==0.3.0
+opepyxl

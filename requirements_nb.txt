@@ -1,0 +1,6 @@
+pandas== 1.0.5
+networkx==2.4
+matplotlib==3.2.2
+chart_studio
+plotly
+numpy==1.18.5
