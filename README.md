@@ -28,7 +28,7 @@ The notebook uses the following libraries:
 To install the necessary libraries run ``` pip install -r  requirements_nb.txt ``` from the terminal.
 
 
-The script **app.py** produces a web based application with displaying the plots of the network that runs locally. In this case, the 2d visualization has been produced using the library d3.js though observablehq.com (see source code at https://observablehq.com/@lorenzomauri17/mobile-patent-suits), while, the 3d visualization is the one produced with plotly. To create the chart on https://observablehq.com, a txt file with the information of the graph needs to ve uploaded among "File attachments". All the steps to create the following txt can in the noteboook **networkvisualization.ipynb**.
+The script **app.py** produces a web based application with displaying the plots of the network that runs locally. In this case, the 2d visualization has been produced using the library d3.js though observablehq.com (see source code at https://observablehq.com/@lorenzomauri17/2d-chart), while, the 3d visualization is the one produced with plotly. To create the chart on https://observablehq.com, a txt file with the information of the graph needs to ve uploaded among "File attachments". All the steps to create the following txt can in the noteboook **networkvisualization.ipynb**.
 
 **utils.py** contains helper functions used in **app.py**. 
 **templates** contains the html templates of the web app.
