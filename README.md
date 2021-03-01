@@ -6,11 +6,12 @@ The purpose of this project is to create an application to visualize network dat
 The repo is structured as follows: 
 * networkvisualization.ipynb
 * app.py
-* utils
+* utils.py
 * templates
   * index.html
   * 2d.html
-  * 3d.html  
+  * 3d.html
+* presentation.pdf 
   
 
 In the notebook **networkvisualization.ipynb**, the network is visualized in 2d and 3d. Regarding the 3d visualizations, there are multiple visualizations: one using matplotlib which is plotted as a notebook plot and one with plotly which is opened in a separate html page.
@@ -53,5 +54,7 @@ From the home page, you have the possibility to choose the dimensionality of the
 The same app has been deployed online (see http://maurilo.pythonanywhere.com/).
 
 In order to create the visualization of the network with the notebook and to produce the 3d visualization of the app, the excel file **raan_case_study.xlsx** needs to be in the directory.
+
+Finally, presentation.pdf is a short presentation of the main contents of the repo.
 
 
