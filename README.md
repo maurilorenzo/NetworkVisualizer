@@ -45,10 +45,10 @@ The scrips use the following libraries:
 
 To install the necessary libraries run ``` pip install -r  requirements_app.txt ``` from the terminal.
 
-To run the app locally, open the app.py in a python IDE and run app.py and go to http://localhost:5000/ to land in the home page.
+To run the app locally, open the app.py in a python IDE, run the script app.py and go to http://localhost:5000/ to land in the home page.
 Alternatively, run ``` python3 app.py ``` **networkvisualization.ipynb** and go to the url appearing in the terminal.
 
-From the home page, you have the possibility to choose the dimensionality of the chart (2d or 3d). Clicking on one of the 2 you will be redirected to a page with the corresponding chart. From the page, you can return to the home page with the home button on the bottom of the page
+From the home page, you have the possibility to choose the dimensionality of the chart (2d or 3d). Clicking on one of the 2 buttons you will be redirected to a page with the corresponding chart. From the page, you can return to the home page with the home button on the bottom of the page
 
 The same app has been deployed online (see http://maurilo.pythonanywhere.com/).
 
