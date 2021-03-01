@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <style> 
-    body { font: 12px Arial;}
-    path {
+    <title>2D chart</title>
+    <meta charset="utf-8">
+    <style>   
+    body { 
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    font: 12px Arial;
+    }
+    .path {
       stroke-width: 2;
       fill: none;
     }
@@ -18,35 +25,45 @@
       fill: #F0F8FF;
       stroke-width: 0;
     }
-    header{
+    .header{
             text-align: center;
             background-color: rgb(220, 220, 220);
             height: 70px;
             line-height: 70px;
         }
-        .chart{
+   .chart{
             margin-top: 30px;
             text-align: center;
         }
   </style>
 </head>
-<body>
- <div class="header">
+    <body>
+     <div class="header">
         <h2>
-           3d chart
+           2d chart
         </h2>
     </div>
 
     <div id="observablehq-chart-0bca5afa"></div>
-    <p>Credit: <a 2d chart </a></p>
-
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@lorenzomauri17/2d-chart.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-0bca5afa"));
-});
-</script>
+    
+<center>    
+    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="d3Chart.js"></script>
+    
+    
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import define from "https://api.observablehq.com/@lorenzomauri17/2d-chart.js?v=3";
+    new Runtime().module(define, name => {
+      if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-0bca5afa"));
+    });
+    </script>
+    <a href="../">
+            <input type="submit" value="home" />
+    <a>
+    
+</center>
 
 </html>
 
