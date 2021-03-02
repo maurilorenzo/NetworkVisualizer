@@ -16,6 +16,9 @@ def genereate_json_for_3d_graph():
     import json
     import plotly.graph_objs as go
     import plotly
+    import random
+    
+    random.seed(10)
 
     
     # import data
