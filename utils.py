@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Feb 27 15:28:24 2021
-
-@author: Lorenzo
-"""
 def genereate_json_for_3d_graph():
     '''
     this function create the json file that is used by plotly to create the figure 
