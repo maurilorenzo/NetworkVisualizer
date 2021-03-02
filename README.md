@@ -25,6 +25,7 @@ The notebook uses the following libraries:
   * mpl_toolkits
   * pandas
   * numpy
+  * random
 
 To install the necessary libraries run ``` pip install -r  requirements_nb.txt ``` from the terminal.
 
@@ -43,6 +44,7 @@ The scrips use the following libraries:
  * json
  * numpyencoder
  * flask
+ * random
 
 To install the necessary libraries run ``` pip install -r  requirements_app.txt ``` from the terminal.
 
