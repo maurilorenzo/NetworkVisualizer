@@ -29,7 +29,6 @@ The notebook uses the following libraries:
 
 To install the necessary libraries run ``` pip install -r  requirements_nb.txt ``` from the terminal.
 
-
 The script **app.py** produces a web based application displaying the plots of the network that runs locally. In this case, the 2d visualization has been produced using the javascript library d3.js through observablehq.com (see source code at https://observablehq.com/@lorenzomauri17/2d-chart), while, the 3d visualization is the one produced with plotly. To create the chart on https://observablehq.com, a txt file with the information of the graph needs to be uploaded in the "File Attachments" section. All the steps to create the following txt can in the noteboook **networkvisualization.ipynb**.
 
 **utils.py** contains an helper function used in **app.py**. 
@@ -49,11 +48,11 @@ The scrips use the following libraries:
 To install the necessary libraries run ``` pip install -r  requirements_app.txt ``` from the terminal.
 
 To run the app locally, open the app.py in a python IDE, run the script app.py and go to http://localhost:5000/ to land in the home page.
-Alternatively, run ``` python3 app.py ``` **networkvisualization.ipynb** and go to the url appearing in the terminal.
+Alternatively, run ``` python3 app.py ```  and go to the url appearing in the terminal.
 
 From the home page, you have the possibility to choose the dimensionality of the chart (2d or 3d). Clicking on one of the 2 buttons you will be redirected to a page with the corresponding chart. From the page, you can return to the home page with the home button on the bottom of the page
 
-The same app has been deployed online (see http://maurilo.pythonanywhere.com/).
+The same app has been deployed online (see http://maurilo.pythonanywhere.com/ (not maintained anymore)).
 
 In order to create the visualization of the network with the notebook and to produce the 3d visualization of the app, the excel file **raan_case_study.xlsx** needs to be in the directory.
 
